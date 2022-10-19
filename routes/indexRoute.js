@@ -1,4 +1,6 @@
 import express from "express";
+
+
 const indexRoute = new express.Router()
 
 indexRoute.get('/',(req,res)=>{
