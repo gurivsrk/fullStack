@@ -4,7 +4,7 @@ import path from 'path';
 import indexRoute from '../routes/indexRoute.js'
 import mongoose from 'mongoose';
 
-const PORT = process.env.port??'4500'
+const PORT = process.env.PORT??'4500'
 const DB_URL = process.env.DATABASE_URL??'mongodb://localhost:27017'
 const app = express()
 
